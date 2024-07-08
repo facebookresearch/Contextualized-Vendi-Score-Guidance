@@ -1,0 +1,21 @@
+data_set: 'dollarstreet'
+count_per_obj: null
+obj_in_prompt: true
+region_in_prompt: true
+guidance_type: 'vscore_clip'
+positive_guidance_obj: false
+positive_guidance_reg: true
+list_starting_seed: [0]
+# list of classifier free guidance sclaes (cfg)
+list_cfgs: [2, 4, 6]
+# list of vendi score guidance sclaes
+list_vscore_scales: [0, 0.04, 0.05, 0.06, 0.07]
+num_inference_steps: 50
+objects: ['agriculture land', 'alcoholic drinks', 'arm watch', 'arm watches', 'armchair', 'backyard', 'bathroom privacy', 'bathroom_toilet', 'bed', 'bed kids', 'bedroom', 'bike', 'books', 'car', 'car keys', 'ceiling', 'chickens', 'cigarettes', 'cleaning equipment', 'computer', 'contraceptives', 'cooking pots', 'cooking utensils', 'cosmetics', 'cups_mugs_glasses', 'cutlery', 'diapers (or baby-pants)', 'dish racks', 'dish washing brush_cloth', 'dish washing soap', 'dishwasher', 'drinking water', 'everyday shoes', 'fishes', 'floor', 'freezer', 'front door', 'frontdoor keys', 'fruit trees', 'fruits and vegetables', 'glasses or lenses', 'grains', 'hair brush_comb', 'hallway', 'home', 'icons', 'idols', 'jewelry', 'kitchen', 'kitchen sink', 'knifes', 'light source in kitchen', 'light source in livingroom', 'light sources', 'living room', 'lock on front door', 'make up', 'meat or fish', 'medication', 'menstruation pads _ tampax', 'moped_motorcycle', 'mosquito protection', 'music equipment', 'necklaces', 'oven', 'paper', 'parking lot', 'pen_pencils', 'pet', 'pet foods', 'phone', 'plate of food', 'plates', 'play area', 'power outlet', 'radio', 'refrigerator', 'roof', 'rug', 'salt', 'shampoo', 'shower', 'smoke and steam exit', 'soap for hands and body', 'source of cool', 'source of heat', 'spices', 'storage room', 'stove_hob', 'switch on_off', 'table with food', 'teeth', 'toilet', 'toilet paper', 'tools', 'tooth paste', 'toothbrush', 'toys', 'trash_waste', 'tv', 'vegetable plot', 'vegetables', 'wall', 'wall clock', 'wall decoration', 'wardrobe', 'washing detergent', 'waste dumps', 'wheel barrow', 'worship places']
+list_regions: ['Europe', 'Africa', 'the Americas', 'Asia']
+root_dir: None
+k_PR: 3
+which_features: 'inceptionv3'
+guidance_freq: 5
+beta: 2
+# alpha in algorithm in 1 is always set to 1

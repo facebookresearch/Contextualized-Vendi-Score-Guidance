@@ -1,0 +1,21 @@
+data_set: 'geode'
+count_per_obj: 180
+obj_in_prompt: true
+region_in_prompt: true
+guidance_type: 'vscore_clip'
+positive_guidance_obj: false
+positive_guidance_reg: true
+list_starting_seed: [0]
+# list of classifier free guidance sclaes (cfg)
+list_cfgs: [2, 4, 6]
+# list of vendi score guidance sclaes
+list_vscore_scales: [0, 0.04, 0.05, 0.06, 0.07]
+num_inference_steps: 50
+objects: ['bag', 'bicycle', 'candle', 'car', 'chair', 'cleaning_equipment', 'cooking_pot', 'dog', 'dustbin', 'front_door', 'hairbrush_comb', 'hand_soap', 'hat', 'jug', 'light_fixture', 'light_switch', 'lighter', 'medicine', 'plate_of_food', 'spices', 'storefront', 'stove', 'toothbrush', 'toothpaste_toothpowder', 'toy', 'tree', 'waste_container']
+list_regions: ['Africa', 'WestAsia', 'EastAsia', 'SouthEastAsia', 'Americas', 'Europe']
+root_dir: None
+k_PR: 3
+which_features: 'inceptionv3'
+guidance_freq: 5
+beta: 2
+# alpha in algorithm in 1 is always set to 1
